@@ -66,3 +66,20 @@ int TextCountArray(string[] array)
     return count;
 }
 ```
+
+Метод (ChangeTextArray)
+```
+// Записываем элементы массива с длиной символов меньше или равно 3 в новый массив
+void ChangeTextArray(string[] array1, string[] array2)
+{
+    int n = 0;
+    for (int i = 0; i < array1.Length; i ++)
+    {
+        if (array1[i].Length <= 3)
+        {
+            array2[n] = array1[i];
+            n ++; 
+        }
+    }
+}
+```
