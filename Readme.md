@@ -17,10 +17,25 @@
 
 1. Создали репозиторий на GitHub -> (01_FinalControl)
 2. В прогамме применим 4 метода
-    * NewTextArray
+    * CreateTextArray
+    * PrintArray
     * TextCountArray
-    * NewTextArray2
+    * ChangeTextArray
 3. Составим блок-схему метода TextCountArray
 4. Составим программу решения задачи.
 
+CreateTextArray
+```
+// Заполнение текстового массива элементами с клавиатуры
+string[] CreateTextArray(int rows)
+{
+    string[] arr = new string[rows];
+    for (int i = 0; i < rows; i ++)
+    {
+        Console.Write($"Введите {i}-й элемент массива: ");
+        arr[i] = Console.ReadLine();
+    }
+    return arr;
+}
+```
 
