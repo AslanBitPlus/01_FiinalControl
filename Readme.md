@@ -24,7 +24,7 @@
 3. Составим блок-схему метода TextCountArray
 4. Составим программу решения задачи.
 
-CreateTextArray
+Метод (CreateTextArray)
 ```
 // Заполнение текстового массива элементами с клавиатуры
 string[] CreateTextArray(int rows)
@@ -39,3 +39,16 @@ string[] CreateTextArray(int rows)
 }
 ```
 
+Метод (PrintArray)
+```
+// Печать текстового массива
+void PrintArray(string[] array)
+{
+    Console.Write("[");
+    for (int i = 0; i < array.Length; i ++)
+    {
+        Console.Write($"{array[i]}  ");     
+    }
+    Console.Write("]");
+}
+```
