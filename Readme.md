@@ -52,3 +52,17 @@ void PrintArray(string[] array)
     Console.Write("]");
 }
 ```
+
+Метод (TextCountArray)
+```
+// Подсчет элементов массива с длиной символов меньше или равно 3
+int TextCountArray(string[] array)
+{
+    int count = 0;
+    for (int i = 0; i < array.Length; i ++)
+    {
+        if (array[i].Length <= 3) count ++;
+    }
+    return count;
+}
+```
