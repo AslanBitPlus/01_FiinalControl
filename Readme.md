@@ -15,3 +15,12 @@
 [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 [“Russia”, “Denmark”, “Kazan”] → []
 
+1. Создали репозиторий на GitHub -> (01_FinalControl)
+2. В прогамме применим 4 метода
+    * NewTextArray
+    * TextCountArray
+    * NewTextArray2
+3. Составим блок-схему метода TextCountArray
+4. Составим программу решения задачи.
+
+
